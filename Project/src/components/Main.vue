@@ -4,7 +4,7 @@
         <div class="py-4 d-flex row justify-content-center">
             <div v-for="item in studentData" :key="item.id" class="border p-3 m-3 col-3 rounded">
                 <h5>{{ item.student_name +", "+ item.student_age+" Tahun" }}</h5>
-                <div class="py-1">{{ item.self_descripption }}</div>
+                <div class="py-1">{{ item.self_description }}</div>
                 <div>Email :{{ item.student_email }}</div>
                 <div>Soft Skill : {{ item.soft_skill }}</div>
                 <div>Hard Skill : {{ item.hard_skill }}</div>
